@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "agentstatus-index": {
+      "url": "https://index.mcp.agentstatus.dev/mcp"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Carmel-Labs-Inc/mcp-index",
+  "title": "AgentStatus MCP Index",
+  "description": "Live public MCP Index. Search, recommend, and call healthy MCP servers.",
+  "repository": {
+    "url": "https://github.com/Carmel-Labs-Inc/agentstatus-mcp-index",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://index.mcp.agentstatus.dev/mcp"
+    }
+  ]
+}
