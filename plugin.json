@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agentstatus-index",
+  "version": "1.0.0",
+  "description": "Search the public MCP Index, then call a tool on a healthy public MCP server.",
+  "author": {
+    "name": "Carmel Labs",
+    "email": "support@carmel.so",
+    "url": "https://agentstatus.dev"
+  },
+  "homepage": "https://agentstatus.dev/mcp-index",
+  "repository": "https://github.com/Carmel-Labs-Inc/agentstatus-mcp-index",
+  "license": "MIT",
+  "keywords": ["mcp", "index", "agentstatus", "discovery"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "agentstatus": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
