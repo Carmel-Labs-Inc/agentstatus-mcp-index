@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agentstatus-longwood-inn",
+  "version": "1.0.0",
+  "description": "Public MCP for The Longwood Inn | 123 Longwood Ave, Brookline MA. No sign-in. Hosted by AgentStatus.",
+  "author": {
+    "name": "AgentStatus",
+    "email": "support@agentstatus.dev",
+    "url": "https://agentstatus.dev"
+  },
+  "homepage": "https://longwood-inn.mcp.agentstatus.dev/",
+  "repository": "https://github.com/Carmel-Labs-Inc/agentstatus-mcp-index",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "agentstatus",
+    "longwood-inn"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "agentstatus": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
