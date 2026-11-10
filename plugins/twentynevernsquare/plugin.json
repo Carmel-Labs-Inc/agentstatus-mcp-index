@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agentstatus-twentynevernsquare",
+  "version": "1.0.0",
+  "description": "Public MCP for \\r\\n \\n Boutique Hotel London | Twenty Nevern Square Hotel\\n \\r\\n. No sign-in. Hosted by AgentStatus.",
+  "author": {
+    "name": "AgentStatus",
+    "email": "support@agentstatus.dev",
+    "url": "https://agentstatus.dev"
+  },
+  "homepage": "https://twentynevernsquare.mcp.agentstatus.dev/",
+  "repository": "https://github.com/Carmel-Labs-Inc/agentstatus-mcp-index",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "agentstatus",
+    "twentynevernsquare"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "agentstatus": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
