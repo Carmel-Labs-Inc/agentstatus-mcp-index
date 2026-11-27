@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agentstatus-sokosauti",
+  "version": "1.0.0",
+  "description": "Public MCP for SokoSauti \u2014 Unified Marketing Workspace for Marketing Teams. No sign-in. Hosted by AgentStatus.",
+  "author": {
+    "name": "AgentStatus",
+    "email": "support@agentstatus.dev",
+    "url": "https://agentstatus.dev"
+  },
+  "homepage": "https://sokosauti.mcp.agentstatus.dev/",
+  "repository": "https://github.com/Carmel-Labs-Inc/agentstatus-mcp-index",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "agentstatus",
+    "sokosauti"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "agentstatus": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
